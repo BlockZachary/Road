@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="image">
+    <file>ui_image/logo.png</file>
+  </qresource>
+  <qresource prefix="icon">
+    <file>ui_image/Minimize-2.svg</file>
+    <file>ui_image/关闭-小_close-small.svg</file>
+    <file>ui_image/锁定_lock.svg</file>
+    <file>ui_image/用户_user.svg</file>
+  </qresource>
+</RCC>
