@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="image"/>
+  <qresource prefix="icon">
+    <file>ui_image/目标.svg</file>
+    <file>ui_image/返回箭头.png</file>
+    <file>ui_image/当前位置.png</file>
+    <file>ui_image/小车已行驶.png</file>
+    <file>ui_image/巡视路线.png</file>
+  </qresource>
+</RCC>

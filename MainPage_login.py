@@ -79,7 +79,7 @@ class Login(QMainWindow):
                 self.ui.button_close.click()
                 cur_path = os.path.abspath('./')
                 res = subprocess.run(
-                    fr"python {cur_path}\MainPage_fct.py", shell=True,
+                    fr"python {cur_path}\MainPage_maininterface.py", shell=True,
                     stdin=subprocess.PIPE, stdout=subprocess.PIPE,
                     stderr=subprocess.PIPE)
                 sys.exit(self.exec_())

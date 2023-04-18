@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="image"/>
+  <qresource prefix="icon">
+    <file>ui_image/检测.png</file>
+    <file>ui_image/刷新.png</file>
+    <file>ui_image/退出.png</file>
+    <file>ui_image/文件.png</file>
+    <file>ui_image/小车信息.png</file>
+    <file>ui_image/云存储.png</file>
+    <file>ui_image/用时.png</file>
+  </qresource>
+</RCC>
