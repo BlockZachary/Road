@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>ui_image/minimize_recover.svg</file>
+    <file>ui_image/maximize.svg</file>
+    <file>ui_image/close.svg</file>
+    <file>ui_image/minimize.svg</file>
+  </qresource>
+  <qresource prefix="image">
+    <file>ui_image/报告.png</file>
+    <file>ui_image/查看.png</file>
+    <file>ui_image/检测.png</file>
+    <file>ui_image/上传文件.png</file>
+    <file>ui_image/实际用时.png</file>
+    <file>ui_image/刷新.png</file>
+    <file>ui_image/传输.png</file>
+    <file>ui_image/路段.png</file>
+    <file>ui_image/日期.png</file>
+    <file>ui_image/天气.png</file>
+    <file>ui_image/无人机基本信息.png</file>
+    <file>ui_image/无人机巡检信息.png</file>
+  </qresource>
+</RCC>

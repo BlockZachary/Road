@@ -79,7 +79,7 @@ class Login(QMainWindow):
                 self.ui.button_close.click()
                 cur_path = os.path.abspath('./')
                 res = subprocess.run(
-                    fr"python {cur_path}\MainPage_maininterface.py", shell=True,
+                    fr"python {cur_path}\MainPage_newmaininterface.py", shell=True,
                     stdin=subprocess.PIPE, stdout=subprocess.PIPE,
                     stderr=subprocess.PIPE)
                 sys.exit(self.exec_())
@@ -140,9 +140,3 @@ class Login(QMainWindow):
         '''
         self.conn = pymysql.connect(host='localhost', user='root', password='980226', database='road', use_unicode=True)
         self.cursor = self.conn.cursor()
-
-
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    login = Login()
-    sys.exit(app.exec_())
