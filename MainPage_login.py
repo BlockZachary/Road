@@ -138,5 +138,6 @@ class Login(QMainWindow):
         创建mysql连接的函数
         :return:
         '''
+        # TODO: 这里需要修改成你自己的数据库IP、用户名和密码
         self.conn = pymysql.connect(host='localhost', user='root', password='980226', database='road', use_unicode=True)
         self.cursor = self.conn.cursor()
